@@ -4,7 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm run build:readmore && npm run build:shell",
+    "build:readmore": "ng build --project read-more-directive --configuration production",
+    "build:shell": "ng build --project shell --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

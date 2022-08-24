@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ReadMoreDirectiveModule } from '../../../read-more-directive/src/lib/read-more-directive.module';
+import { ReadMoreDirectiveModule } from 'read-more-directive';
 import { AppComponent } from './app.component';
 
 @NgModule({
