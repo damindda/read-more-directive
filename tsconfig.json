@@ -16,6 +16,12 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "read-more-directive": [
+        "dist/read-more-directive/read-more-directive",
+        "dist/read-more-directive"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [
