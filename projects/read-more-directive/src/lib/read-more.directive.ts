@@ -13,7 +13,7 @@ export class ReadMoreDirective implements AfterViewInit {
   readMoreButtonName: string = 'ndtk-read-more';
   showLessButtonName: string = 'ndtk-show-less';
   /**
-   * Represents a book.
+   *
    * @Input() stringLength accepts number
    * by default it is 180
    */
